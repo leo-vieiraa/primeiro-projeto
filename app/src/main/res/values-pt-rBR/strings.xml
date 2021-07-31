@@ -2,4 +2,8 @@
 <resources>
     <string name="save_label">Save</string>
     <string name="message_error">Ocorreu um erro</string>
+    <string name="message_success">Sucesso!</string>
+    <string name="touch_screen">Toque na tela</string>
+    <string name="touch_button">Toque no botao</string>
+    <string name="touch_button_2">Toque no botao 2</string>
 </resources>

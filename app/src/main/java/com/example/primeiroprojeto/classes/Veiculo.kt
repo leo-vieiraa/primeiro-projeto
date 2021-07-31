@@ -4,12 +4,13 @@ class Veiculo (
 
     private val motor : String,
     private var combustivel : String,
+    private var tipo: TipoVeiculo?
 
 ) {
 
-    constructor() : this("", "")
+    constructor() : this("", "", null)
 
-    constructor(motor: String) : this(motor, "")
+    constructor(motor: String) : this(motor, "", null)
 
     fun verificaMotor() : Boolean {
         return motor.isNotEmpty() && motor.length >= 2

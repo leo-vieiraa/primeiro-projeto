@@ -2,4 +2,8 @@
     <string name="app_name" translatable="false">Primeiro Projeto</string>
     <string name="save_label">Save</string>
     <string name="message_error">An error occurred</string>
+    <string name="message_success">Success!</string>
+    <string name="touch_screen">Toque na tela</string>
+    <string name="touch_button">Toque no botao</string>
+    <string name="touch_button_2">Toque no botao 2</string>
 </resources>

@@ -1,10 +1,8 @@
 package com.example.primeiroprojeto.classes
 
-open class Animal (
-
-    private var categoria: String
-
-        ) {
+abstract class Animal (
+    val categoria: String
+        ) : Som, Movimentacao {
 
     open fun movimentar() {
         println("Animal se movimentando")
